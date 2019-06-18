@@ -180,4 +180,16 @@
   }
 
   createTypeWriter();
+
+  function showInformation(title, text) {
+    Swal.fire({
+      title: title,
+      text: text,
+      imageUrl: "https://unsplash.it/400/200",
+      imageWidth: 400,
+      imageHeight: 200,
+      imageAlt: "Custom image",
+      animation: true
+    });
+  }
 })(jQuery);

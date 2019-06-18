@@ -16,7 +16,7 @@
   <link
     href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,500,600,700,700i|Montserrat:300,400,500,600,700"
     rel="stylesheet">
-    <script src="https://unpkg.com/typewriter-effect/dist/core.js"></script>
+  <script src="https://unpkg.com/typewriter-effect/dist/core.js"></script>
 
   <!-- Bootstrap CSS File -->
   <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -28,6 +28,8 @@
   <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
   <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
   <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
 
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
@@ -225,7 +227,7 @@
         <div class="row">
 
           <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-duration="1.4s">
-            <div class="box">
+            <div class="box" onClick="showInformation('Control-M Implementation','content')">
               <div class="icon" style="background: #fceef3;"><i class="ion-wrench" style="color: #ff689b;"></i></div>
               <h4 class="title"><a href="">Control-M Implementation</a></h4>
               <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint
@@ -233,7 +235,7 @@
             </div>
           </div>
           <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-duration="1.4s">
-            <div class="box">
+            <div class="box" onClick="showInformation('Health Check','content')">
               <div class="icon" style="background: #fff0da;"><i class="ion-search" style="color: #e98e06;"></i></div>
               <h4 class="title"><a href="">Health Check</a></h4>
               <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -242,7 +244,7 @@
           </div>
 
           <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
-            <div class="box">
+            <div class="box" onClick="showInformation('Managed Services','content')">
               <div class="icon" style="background: #e6fdfc;"><i class="ion-key" style="color: #3fcdc7;"></i></div>
               <h4 class="title"><a href="">Managed Services</a></h4>
               <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
@@ -250,7 +252,7 @@
             </div>
           </div>
           <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
-            <div class="box">
+            <div class="box" onClick="showInformation('Education','content')">
               <div class="icon" style="background: #eafde7;"><i class="ion-university" style="color:#41cf2e;"></i></div>
               <h4 class="title"><a href="">Education</a></h4>
               <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
@@ -258,7 +260,7 @@
             </div>
           </div>
           <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
-            <div class="box">
+            <div class="box" onClick="showInformation('Conversion','content')">
               <div class="icon" style="background: #fffccc;"><i class="ion-code" style="color:#cec41c;"></i></div>
               <h4 class="title"><a href="">Conversion</a></h4>
               <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
@@ -266,7 +268,7 @@
             </div>
           </div>
           <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
-            <div class="box">
+            <div class="box" onClick="showInformation('Staff Augmentation','content')">
               <div class="icon" style="background: #cca6e0;"><i class="ion-person-add" style="color:#6c0f9b;"></i></div>
               <h4 class="title"><a href="">Staff Augmentation</a></h4>
               <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
@@ -619,9 +621,6 @@
   <script src="js/native-typed.min.js"></script>
   <!-- Contact Form JavaScript File -->
   <script src="contactform/contactform.js"></script>
-
-  <!-- Template Main Javascript File -->
-
   <script src="js/main.js"></script>
 </body>
 

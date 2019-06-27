@@ -403,7 +403,7 @@ Header
                 </div>
 
                 <div class="col-lg-3 col-6 text-center">
-                    <span data-toggle="counter-up"><?= $row['total__hours_monitoring'] ?></span>
+                    <span data-toggle="counter-up"><?= $row['total_hours_monitoring'] ?></span>
                     <p>Hours of Monitoring</p>
                 </div>
 

@@ -520,7 +520,7 @@ Header
 
                     <div class="footer-links">
                         <div>
-                            <img class="mb-4" style="object-fit: cover" width="100%" height="150px" src="img/Building.jpg" alt="">
+                            <img class="mb-4" style="object-fit: cover" width="100%" height="150px" src="img/building.jpg" alt="">
                         </div>
                         <h4>Contact Us</h4>
                         <p class="font-weight-bold my-0">VPMA GLOBAL SERVICES LLC</p>

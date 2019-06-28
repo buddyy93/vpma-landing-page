@@ -519,6 +519,9 @@ Header
                 <div class="col-lg-6">
 
                     <div class="footer-links">
+                        <div>
+                            <img class="mb-4" style="object-fit: cover" width="100%" height="150px" src="img/Building.jpg" alt="">
+                        </div>
                         <h4>Contact Us</h4>
                         <p class="font-weight-bold my-0">VPMA GLOBAL SERVICES LLC</p>
                         <p>5080 Spectrum Drive Suite 1000 East Addison, Texas 75001 USA</p>

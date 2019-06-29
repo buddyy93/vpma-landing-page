@@ -85,7 +85,7 @@ Header
 ============================-->
 <section id="intro" class="clearfix">
     <div id="cf" width="100%">
-        <img class="background-pic" src="img/slide-building2.jpg"/>
+        <img class="background-pic" src="img/landing-page.jpg"/>
     </div>
     <div class="container d-flex h-100">
         <div class="row justify-content-center align-self-center" id="typewriter-content">
@@ -460,7 +460,7 @@ Header
 
                         <div class="col-lg-3 col-6 text-center">
                             <span data-toggle="counter-up"><?= $row['total_hours_monitoring'] ?></span>
-                            <p>Hours of Monitoring</p>
+                            <p>Hours o f Monitoring</p>
                         </div>
 
                     </div>

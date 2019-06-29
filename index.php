@@ -108,7 +108,7 @@ Header
 
                 <div class="col-lg-5 col-md-6">
                     <div class="about-img">
-                        <img src="img/about-img.jpg" alt="">
+                        <img class="img-fluid" src="img/about-img.jpg" alt="">
                     </div>
                 </div>
 

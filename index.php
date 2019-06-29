@@ -439,42 +439,43 @@ Header
 
                 </div>
             </div>
-            <div class="container">
-                <div class="row counters">
+            <section id="why-us" class="wow fadeIn my-1">
+                <div class="container">
+                    <div class="row counters">
 
-                    <?php
-                    $db = mysqli_connect("localhost", "giorgi", "ready2go", "vpma_site");
+                        <?php
+                        $db = mysqli_connect("localhost", "root", "", "vpma_dashboard");
 
-                    $query = "SELECT * from analytics";
-                    $result = $db->query($query);
+                        $query = "SELECT * from analytics";
+                        $result = $db->query($query);
 
-                    $row = $result->fetch_array(MYSQLI_ASSOC);
-                    mysqli_close($db);
-                    ?>
-                    <div class="col-lg-3 col-6 text-center">
-                        <span data-toggle="counter-up"><?= $row['total_clients'] ?></span>
-                        <p>Clients</p>
-                    </div>
+                        $row = $result->fetch_array(MYSQLI_ASSOC);
+                        mysqli_close($db);
+                        ?>
+                        <div class="col-lg-3 col-6 text-center">
+                            <span data-toggle="counter-up"><?= $row['total_clients'] ?></span>
+                            <p>Clients</p>
+                        </div>
 
-                    <div class="col-lg-3 col-6 text-center">
-                        <span data-toggle="counter-up"><?= $row['total_projects'] ?></span>
-                        <p>Projects</p>
-                    </div>
+                        <div class="col-lg-3 col-6 text-center">
+                            <span data-toggle="counter-up"><?= $row['total_projects'] ?></span>
+                            <p>Projects</p>
+                        </div>
 
-                    <div class="col-lg-3 col-6 text-center">
-                        <span data-toggle="counter-up"><?= $row['total_hours_consulting'] ?></span>
-                        <p>Hours Of Consulting</p>
-                    </div>
+                        <div class="col-lg-3 col-6 text-center">
+                            <span data-toggle="counter-up"><?= $row['total_hours_consulting'] ?></span>
+                            <p>Hours Of Consulting</p>
+                        </div>
 
-                    <div class="col-lg-3 col-6 text-center">
-                        <span data-toggle="counter-up"><?= $row['total_hours_monitoring'] ?></span>
-                        <p>Hours of Monitoring</p>
+                        <div class="col-lg-3 col-6 text-center">
+                            <span data-toggle="counter-up"><?= $row['total_hours_monitoring'] ?></span>
+                            <p>Hours of Monitoring</p>
+                        </div>
+
                     </div>
 
                 </div>
-
-            </div>
-
+            </section>
         </div>
     </section><!-- #testimonials -->
 </main>

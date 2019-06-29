@@ -31,14 +31,6 @@
 
     <!-- Main Stylesheet File -->
     <link href="css/style.css" rel="stylesheet">
-    <style>
-        .carousel-item {
-            height: 100%;
-            min-height: 300px;
-            background: no-repeat center center scroll;
-            background-size: cover;
-        }
-    </style>
 
     <!-- =======================================================
       Theme Name: Rapid
@@ -93,7 +85,6 @@ Header
 ============================-->
 <section id="intro" class="clearfix">
     <div id="cf" width="100%">
-        <img class="background-pic" src="img/slide-building.jpg"/>
         <img class="background-pic" src="img/slide-building2.jpg"/>
     </div>
     <div class="container d-flex h-100">

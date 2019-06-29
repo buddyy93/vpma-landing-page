@@ -151,15 +151,15 @@
   // typewriter.c allFunction(showNext, thisArg).start();
 
   function showNext() {
-    $(".background-pic")
-      .eq(index)
-      .fadeOut("slow");
-    index--;
-
-    if (index < 0) {
-      $(".background-pic").fadeIn("slow");
-      index = 1;
-    }
+    // $(".background-pic")
+    //   .eq(index)
+    //   .fadeOut("slow");
+    // index--;
+    //
+    // if (index < 0) {
+    //   $(".background-pic").fadeIn("slow");
+    //   index = 1;
+    // }
 
     createTypeWriter();
   }

@@ -142,11 +142,10 @@
     responsive: { 0: { items: 2 }, 768: { items: 4 }, 900: { items: 6 } }
   });
 
-  var index = 2;
+  var index = 1;
   var headerTexts = [
     "Mauris dictum porta lacus in luctus. Mauris ligula veli",
-    "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet",
-    "Specializing in BMC Control-M Workload Automation"
+    "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet"
   ];
 
   // typewriter.c allFunction(showNext, thisArg).start();
@@ -159,7 +158,7 @@
 
     if (index < 0) {
       $(".background-pic").fadeIn("slow");
-      index = 2;
+      index = 1;
     }
 
     createTypeWriter();

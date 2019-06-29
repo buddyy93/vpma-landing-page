@@ -93,9 +93,8 @@ Header
 ============================-->
 <section id="intro" class="clearfix">
     <div id="cf" width="100%">
-        <img class="background-pic" src="img/portfolio/web1.jpg"/>
-        <img class="background-pic" src="img/portfolio/web2.jpg"/>
-        <img class="background-pic" src="img/portfolio/web3.jpg"/>
+        <img class="background-pic" src="img/slide-building.jpg"/>
+        <img class="background-pic" src="img/slide-building2.jpg"/>
     </div>
     <div class="container d-flex h-100">
         <div class="row justify-content-center align-self-center" id="typewriter-content">
@@ -520,7 +519,8 @@ Header
 
                     <div class="footer-links">
                         <div>
-                            <img class="mb-4" style="object-fit: cover" width="100%" height="150px" src="img/building.jpg" alt="">
+                            <img class="mb-4" style="object-fit: cover" width="100%" height="150px"
+                                 src="img/building.jpg" alt="">
                         </div>
                         <h4>Contact Us</h4>
                         <p class="font-weight-bold my-0">VPMA GLOBAL SERVICES LLC</p>

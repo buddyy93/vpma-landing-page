@@ -436,6 +436,7 @@ Header
 
                         <?php
                         $db = mysqli_connect("localhost", "giorgi", "ready2go", "vpma_site");
+//                        $db = mysqli_connect("localhost", "root", "", "vpma_dashboard");
 
                         $query = "SELECT * from analytics";
                         $result = $db->query($query);
@@ -484,7 +485,7 @@ Header
 
                     <div class="footer-links">
                         <div>
-                            <img class="mb-4" style="" width="100%" height="150px"
+                            <img class="mb-4" style="object-fit: cover; object-position: top" width="100%" height="150px"
                                  src="img/building.jpg" alt="">
                         </div>
                         <h4>Contact Us</h4>

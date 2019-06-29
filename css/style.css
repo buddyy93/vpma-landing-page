@@ -1607,7 +1607,7 @@ span.title__cursor {
   object-fit: cover;
   position: absolute;
   left: 0;
-  filter: brightness(1.3);
+  filter: brightness(1.1);
 }
 
 .Typewriter__wrapper {

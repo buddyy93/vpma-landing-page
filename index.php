@@ -444,7 +444,7 @@ Header
                     <div class="row counters">
 
                         <?php
-                        $db = mysqli_connect("localhost", "root", "", "vpma_dashboard");
+                        $db = mysqli_connect("localhost", "giorgi", "ready2go", "vpma_site");
 
                         $query = "SELECT * from analytics";
                         $result = $db->query($query);

@@ -90,7 +90,7 @@ Header
     <div class="container d-flex h-100">
         <div class="row justify-content-center align-self-center" id="typewriter-content">
             <div class="col-md-12 mx-auto intro-info text-center">
-                <h2><span style="color: black" id="typewriter"></span></h2>
+                <h2><span style="color: white" id="typewriter"></span></h2>
             </div>
         </div>
     </div>
